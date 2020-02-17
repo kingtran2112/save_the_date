@@ -1,0 +1,10 @@
+# npm packages
+node_modules
+
+# yarn file
+yarn.lock
+
+# parcel files
+.cache
+.parcel-cache
+dist
