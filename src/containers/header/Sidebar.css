@@ -1,0 +1,24 @@
+.header {
+    padding-left: 20.5px;
+    margin-top: 38px;
+    width: 100px;
+
+}
+
+.header > ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul > li {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+.bold {
+    font-weight: bold;
+}

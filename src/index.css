@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+    font-family: 'PoppinsVN';
+}
+
+@font-face {
+    font-family: 'PoppinsVN';
+    src: url('resources/font/PoppinsVN-400.ttf') format('truetype'), url('resources/font/PoppinsVN-700.ttf') format('truetype');
+}

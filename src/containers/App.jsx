@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import SideBar from './header/SideBar.jsx';
+import './App.css';
 
 function App() {
     return(
-        <p>This is my new react App</p>
+        <SideBar/>
     )
 }
 
