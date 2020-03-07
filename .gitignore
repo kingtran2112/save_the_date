@@ -8,3 +8,6 @@ yarn.lock
 .cache
 .parcel-cache
 dist
+
+#DS_Store file
+.DS_Store
