@@ -1,11 +1,11 @@
 import React from 'react';
-import SideBar from './sidebar/SideBar.jsx';
+import SideBar from './sidebar/SideBar';
 import './App.css';
 
 function App() {
-    return(
-        <SideBar/>
-    )
+  return (
+    <SideBar />
+  );
 }
 
 export default App;
