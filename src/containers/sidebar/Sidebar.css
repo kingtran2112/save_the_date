@@ -1,13 +1,13 @@
-.header {
+.sidebar {
     padding-left: 20.5px;
-    margin-top: 38px;
-    width: 100px;
-
+    width: 144.5px;
+    flex-shrink: 0;
 }
 
-.header > ul {
+.sidebar > ul {
     list-style-type: none;
     padding-left: 0px;
+    margin-top: 38px;
 }
 
 ul > li {

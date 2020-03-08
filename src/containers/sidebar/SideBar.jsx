@@ -3,7 +3,7 @@ import './SideBar.css';
 
 function SideBar() {
   return (
-    <div className="header">
+    <div className="sidebar">
       <ul>
         <li>Lời mở đầu</li>
         <li>Who are we</li>

@@ -6,10 +6,11 @@
   "scripts": {
     "start": "NODE_ENV=development parcel ./src/index.html",
     "dist": "NODE_ENV=production parcel build ./src/index.html",
-    "gh-build": "NODE_ENV=production parcel build ./src/index.html --public-url https://kingtran2112.github.io/save_the_date/",
+    "gh-build": "lint NODE_ENV=production parcel build ./src/index.html --public-url https://kingtran2112.github.io/save_the_date/",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "lint": "eslint **/*.jsx"
   },
   "author": "kingtran.2112@gmail.com",
   "license": "MIT",
@@ -29,6 +30,12 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "husky": "^4.2.3",
     "parcel-bundler": "^1.12.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   }
 }
