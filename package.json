@@ -6,7 +6,7 @@
   "scripts": {
     "start": "NODE_ENV=development parcel ./src/index.html",
     "dist": "NODE_ENV=production parcel build ./src/index.html",
-    "gh-build": "lint NODE_ENV=production parcel build ./src/index.html --public-url https://kingtran2112.github.io/save_the_date/",
+    "gh-build": "NODE_ENV=production parcel build ./src/index.html --public-url https://kingtran2112.github.io/save_the_date/",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
