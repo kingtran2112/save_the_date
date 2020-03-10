@@ -8,3 +8,30 @@
   letter-spacing: -0.01em;
   color: #172B4D;
 }
+
+.wish {
+  display: block;
+  margin-top: 20px;
+}
+
+.join-us-btn {
+  display: flex;
+  box-sizing: border-box;
+  background: #8A4C51;
+  width: 188px;
+  height: 52px;
+  margin-top: 72px;
+  padding: 16px 0px 14px 40px;
+
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.arrow-right-btn {
+  margin-left: 20px;
+}

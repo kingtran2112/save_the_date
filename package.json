@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
-    "lint": "eslint **/*.jsx"
+    "lint": "eslint src/**/*.jsx"
   },
   "author": "kingtran.2112@gmail.com",
   "license": "MIT",
