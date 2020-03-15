@@ -9,18 +9,18 @@ export default function Intro() {
       <a href="/">
         <img src={Logo} alt="Go to Home" />
       </a>
-      <div className="happy-engaged">
+      <div className="intro__introduce">
         <span>
           I have finally deecided to make it official
           with my sweetheart today.
         </span>
-        <span className="wish">
+        <span className="intro__conclusion">
           Happy and engageed!
         </span>
       </div>
-      <a className="join-us-btn" href="#join-us">
+      <a className="intro__join-us" href="#join-us">
         <span>Join us</span>
-        <img className="arrow-right-btn" src={ArrowRight} alt="Go to invitation" />
+        <img className="intro__join-us-arrow" src={ArrowRight} alt="Go to invitation" />
       </a>
     </div>
   );

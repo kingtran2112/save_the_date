@@ -1,0 +1,21 @@
+.carousel {
+  width: 50%;
+}
+
+.carousel_indicator-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.carousel__indicator {
+  cursor: pointer;
+  width: 2px;
+  height: 35px;
+  background: #344563;
+  opacity: 0.1;
+  border-radius: 4px;
+}
+
+.carousel__indicator--active {
+  opacity: unset;
+}

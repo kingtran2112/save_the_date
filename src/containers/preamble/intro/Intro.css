@@ -1,4 +1,8 @@
-.happy-engaged {
+.intro {
+  width: 50%;
+}
+
+.intro__introduce {
   width: 445px;
   height: 200px;
 
@@ -9,12 +13,12 @@
   color: #172B4D;
 }
 
-.wish {
+.intro__conclusion {
   display: block;
   margin-top: 20px;
 }
 
-.join-us-btn {
+.intro__join-us {
   display: flex;
   box-sizing: border-box;
   background: #8A4C51;
@@ -32,6 +36,6 @@
   color: #FFFFFF;
 }
 
-.arrow-right-btn {
+.intro__join-us-arrow {
   margin-left: 20px;
 }

@@ -4,21 +4,17 @@
     flex-shrink: 0;
 }
 
-.sidebar > ul {
+.sidebar__list {
     list-style-type: none;
     padding-left: 0px;
     margin-top: 38px;
 }
 
-ul > li {
+.sidebar__item {
     font-size: 10px;
     line-height: 16px;
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-top: 32px;
-}
-
-.bold {
-    font-weight: bold;
 }

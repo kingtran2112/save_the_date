@@ -2,15 +2,21 @@ import React from 'react';
 import './SideBar.css';
 
 function SideBar() {
+  const items = [
+    'Lời mở đầu',
+    'Who are we',
+    'Các cột mốc',
+    'Ảnh cưới',
+    'Thông tin',
+    'Thư mời',
+  ];
+  const liList = items.map((item) => (
+    <li key={item} className="sidebar__item">{item}</li>
+  ));
   return (
     <div className="sidebar">
-      <ul>
-        <li>Lời mở đầu</li>
-        <li>Who are we</li>
-        <li>Các cột mốc</li>
-        <li>Ảnh cưới</li>
-        <li>Thông tin</li>
-        <li>Thư mời</li>
+      <ul className="sidebar__list">
+        {liList}
       </ul>
     </div>
   );
