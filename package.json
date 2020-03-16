@@ -2,6 +2,10 @@
   "name": "save_the_date",
   "version": "1.0.0",
   "description": "The project I created for my wedding",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kingtran2112/save_the_date.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development parcel ./src/index.html",
