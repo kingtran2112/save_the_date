@@ -2,12 +2,33 @@
   width: 50%;
 }
 
-.carousel_indicator-list {
+.carousel__indicator-list {
   list-style-type: none;
   padding: 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .carousel__indicator {
+  margin-top: 310px;
+}
+
+.carousel__counter {
+  display: inline-block;
+  transform: rotate(-90deg);
+  transform-origin: center left;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  color: #172b4d;
+}
+
+.carousel__counter-total {
+  opacity: 0.6;
+}
+
+.carousel__indicator-element {
   cursor: pointer;
   width: 2px;
   height: 35px;
