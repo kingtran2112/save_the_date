@@ -1,21 +1,23 @@
 .carousel {
   width: 50%;
+  display: flex;
 }
 
 .carousel__indicator-list {
   list-style-type: none;
   padding: 0px;
-  margin: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 7px;
 }
 
 .carousel__indicator {
   margin-top: 310px;
+  flex-shrink: 0;
 }
 
 .carousel__counter {
   display: inline-block;
   transform: rotate(-90deg);
-  transform-origin: center left;
+  transform-origin: top left;
 
   font-weight: bold;
   font-size: 12px;
@@ -37,6 +39,27 @@
   border-radius: 4px;
 }
 
-.carousel__indicator--active {
+.carousel__indicator-element--active {
   opacity: unset;
+}
+
+.carousel__arrow {
+  margin-top: 52px;
+}
+
+.carousel__arrow {
+  display: block;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.carousel__arrow--down {
+  margin-top: 40.5px;
+}
+
+.carousel__image {
+  height: 609px;
+  margin-top: 25px;
 }
