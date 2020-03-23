@@ -20,6 +20,7 @@ function counterFormat(number) {
   return number;
 }
 
+// TODO: Divide this into smaller component
 export default function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const indicators = CarouselPics.map(
