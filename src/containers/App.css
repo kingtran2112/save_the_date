@@ -2,6 +2,7 @@
     font-style: normal;
 }
 
-.app-container {
-    display: flex;
+.preamble--pattern-left {
+    float: left;
+    margin-top: 628px;
 }
