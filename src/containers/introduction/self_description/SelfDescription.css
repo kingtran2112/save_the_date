@@ -1,0 +1,36 @@
+.self-description {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 30%;
+}
+
+.self-description--title {
+  margin-top: 32px;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #8A4C51;
+}
+
+.self-description--name {
+  margin-top: 8px;
+
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 140%;
+
+  color: #333333;
+}
+
+.self-description--description {
+  margin-top: 12px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6B778C;
+}

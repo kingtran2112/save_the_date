@@ -5,5 +5,7 @@ body {
 
 @font-face {
     font-family: 'PoppinsVN';
-    src: url('resources/font/PoppinsVN-400.ttf') format('truetype'), url('resources/font/PoppinsVN-700.ttf') format('truetype');
+    src: url('resources/font/PoppinsVN-400.ttf') format('truetype'), 
+            url('resources/font/PoppinsVN-700.ttf') format('truetype'),
+            url('resources/font/PoppinsVN-800.ttf') format('truetype');
 }

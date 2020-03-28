@@ -22,6 +22,7 @@
         "react"
     ],
     "rules": {
-        "click-events-have-key-events": "off"
+        "click-events-have-key-events": "off",
+        "react/require-default-props": "off"
     }
 }
