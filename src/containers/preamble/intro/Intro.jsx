@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../../resources/icon/icon_logo.png';
-import ArrowRight from '../../../resources/icon/arrow_right.png';
+import ArrowRight from '../../../resources/icon/arrow_right.svg';
 import './Intro.css';
 
 export default function Intro() {

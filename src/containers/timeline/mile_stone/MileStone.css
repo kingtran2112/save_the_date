@@ -1,0 +1,94 @@
+.mile-stone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mile-stone--node {
+  order: 2;
+}
+
+.mile-stone--place-holder {
+  width: 37.5%;
+  flex-shrink: 0;
+}
+
+.mile-stone--node-node {
+  float: right;
+}
+
+.mile-stone--node-line {
+  height: 100%;
+  background: #8A4C51;
+  opacity: 0.2;
+  width: 2px;
+  margin-top: 11px;
+  margin-left: 50%;
+}
+
+.mile-stone--detail {
+  width: 37.5%;
+  flex-shrink: 0;
+  margin-bottom: 50px;
+}
+
+.mile-stone--date {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #8A4C51;
+}
+
+.mile-stone--title {
+  margin-top: 8px;
+
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 130%;
+
+  color: #172B4D;
+}
+
+.mile-stone--content {
+  margin-top: 12px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 162%;
+
+  color: #6B778C;
+}
+
+.mile-stone--left .mile-stone--place-holder {
+  order: 3;
+}
+
+.mile-stone--left .mile-stone--detail {
+  order: 1;
+}
+
+.mile-stone--right .mile-stone--place-holder {
+  order: 1;
+}
+
+.mile-stone--right .mile-stone--detail {
+  order: 3;
+}
+
+.mile-stone--end .mile-stone--place-holder {
+  order: 1;
+}
+
+.mile-stone--end .mile-stone--detail {
+  order: 3;
+}
+
+.mile-stone-end .mile-stone--node-line {
+  height: unset;
+  background: #8A4C51;
+  opacity: 0.2;
+  width: unset;
+  margin-top: 11px;
+  margin-left: 50%;
+}

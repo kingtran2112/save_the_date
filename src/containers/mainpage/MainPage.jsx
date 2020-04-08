@@ -2,6 +2,7 @@ import React from 'react';
 import Preamble from '../preamble/Preamble';
 import EndSection from '../end_section/EndSection';
 import Introduction from '../introduction/Introduction';
+import Timeline from '../timeline/Timeline';
 import './MainPage.css';
 
 export default function MainPage() {
@@ -11,6 +12,7 @@ export default function MainPage() {
       <EndSection />
       <Introduction />
       <EndSection />
+      <Timeline />
     </div>
   );
 }
