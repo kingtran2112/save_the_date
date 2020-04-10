@@ -9,10 +9,10 @@ export default function MileStone(props) {
   } = props;
   return (
     <div className={`mile-stone mile-stone--${type}`}>
-      <div className="mile-stone--place-holder" />
+      { type !== 'end' && <div className="mile-stone--place-holder" /> }
       <div className="mile-stone--node">
         <img className="mile-stone--node-node" src={TimelineNode} alt="Timeline node" />
-        <div className="mile-stone--node-line" />
+        { type !== 'end' && <div className="mile-stone--node-line" /> }
       </div>
       <div className="mile-stone--detail">
         <div className="mile-stone--date">

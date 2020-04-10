@@ -2,7 +2,12 @@
     font-style: normal;
 }
 
-.preamble--pattern-left {
+.pattern-left {
     float: left;
     margin-top: 628px;
+}
+
+.pattern-right {
+    float: right;
+    margin-top: 2547px;
 }

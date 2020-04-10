@@ -13,6 +13,7 @@ export default function MainPage() {
       <Introduction />
       <EndSection />
       <Timeline />
+      <EndSection />
     </div>
   );
 }

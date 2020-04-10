@@ -76,10 +76,6 @@
   order: 3;
 }
 
-.mile-stone--end .mile-stone--place-holder {
-  order: 1;
-}
-
 .mile-stone--end .mile-stone--detail {
   order: 3;
 }
@@ -91,4 +87,18 @@
   width: unset;
   margin-top: 11px;
   margin-left: 50%;
+}
+
+.mile-stone--end {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.mile-stone--end .mile-stone--detail {
+  margin-top: 40px;
+  margin-bottom: unset;
+  width: 100%;
 }
