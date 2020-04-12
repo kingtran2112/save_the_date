@@ -3,11 +3,13 @@
 }
 
 .pattern-left {
-    float: left;
+    position: absolute;
+    left: 0px;
     margin-top: 628px;
 }
 
 .pattern-right {
-    float: right;
+    position: absolute;
+    right: 0px;
     margin-top: 2547px;
 }

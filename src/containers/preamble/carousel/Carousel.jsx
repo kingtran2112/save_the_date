@@ -45,7 +45,7 @@ export default function Carousel() {
         <ul className="carousel__indicator-list">
           {indicators}
         </ul>
-        <div className="carousel__arrow">
+        <div className="carousel__arrows">
           <button
             className="carousel__arrow carousel__arrow--up"
             onClick={

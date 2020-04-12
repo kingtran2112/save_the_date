@@ -43,7 +43,7 @@
   opacity: unset;
 }
 
-.carousel__arrow {
+.carousel__arrows {
   margin-top: 52px;
 }
 
@@ -53,6 +53,7 @@
   padding: 0px;
   cursor: pointer;
   outline: none;
+  background: unset;
 }
 
 .carousel__arrow--down {
