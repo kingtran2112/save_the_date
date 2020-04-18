@@ -9,7 +9,7 @@ import './Introduction.css';
 export default function Introduction() {
   return (
     <div className="introduction">
-      <div className="introduction--title">
+      <div className="title introduction--title">
         Chúng mình là ai?
       </div>
       <div className="introduction--detail">

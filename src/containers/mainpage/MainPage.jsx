@@ -3,6 +3,7 @@ import Preamble from '../preamble/Preamble';
 import EndSection from '../end_section/EndSection';
 import Introduction from '../introduction/Introduction';
 import Timeline from '../timeline/Timeline';
+import WeddingPictures from '../wedding_pictures/WeddingPictures';
 import './MainPage.css';
 
 export default function MainPage() {
@@ -13,6 +14,8 @@ export default function MainPage() {
       <Introduction />
       <EndSection />
       <Timeline />
+      <EndSection />
+      <WeddingPictures />
       <EndSection />
     </div>
   );

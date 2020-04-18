@@ -5,6 +5,9 @@ import './Timeline.css';
 export default function Timeline() {
   return (
     <div className="timeline">
+      <div className="title timeline--title">
+        Chúng mình đã gặp nhau như thế nào
+      </div>
       <MileStone
         type="right"
         date={new Date(2013, 1, 14)}

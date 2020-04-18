@@ -1,18 +1,5 @@
 .introduction--detail {
-  margin-top: 80px;
   display: flex;
   margin-left: 8.34%;
   margin-right: 8.34%;
-}
-
-.introduction--title {
-  margin-top: 8px;
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 140%;
-
-  text-align: center;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: #172B4D;
 }

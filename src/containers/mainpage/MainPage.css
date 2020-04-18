@@ -2,3 +2,16 @@
   margin-left: 11%;
   margin-right: 11%;
 }
+
+.title {
+  margin-bottom: 80px;
+
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 140%;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #172B4D;
+}
