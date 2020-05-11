@@ -1,0 +1,58 @@
+.place .place--map {
+  height: 620px;
+  width: 100%;
+}
+.place--marker__logo {
+  width: 38px;
+  height: 38px;
+}
+
+.place--map__information {
+  margin-left: 8.33%;
+  margin-top: 110px;
+}
+
+.wedding__info--content {
+  line-height: 26px;
+  font-weight: normal;
+  color: #6B778C;
+  font-size: 16px;
+}
+
+.wedding__info--title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #172b4d;
+}
+
+.place--map__information > div {
+  margin-bottom: 36px;
+}
+
+.place--map__google-map {
+  z-index: -1;
+  position: absolute;
+  margin-left: 16.67%;
+  margin-top: 20px;
+}
+
+.place--map__direction {
+  background: #8A4C51;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 202px;
+  height: 52px;
+
+  letter-spacing: 0.12em;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -2,6 +2,10 @@
     font-style: normal;
 }
 
+.flex {
+    display: flex;
+}
+
 .pattern-left {
     position: absolute;
     left: 0px;
