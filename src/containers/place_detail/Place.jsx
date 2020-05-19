@@ -2,6 +2,7 @@ import React from 'react';
 import DateIcon from '../../resources/icon/map_date_icon.svg';
 import PlaceIcon from '../../resources/icon/map_place_icon.svg';
 import MapPicture from '../../resources/picture/map_picture.svg';
+import Countdown from './countdown/Countdown';
 import './Place.css';
 
 export default function Place() {
@@ -40,6 +41,7 @@ export default function Place() {
           </a>
         </div>
       </div>
+      <Countdown />
     </div>
   );
 }

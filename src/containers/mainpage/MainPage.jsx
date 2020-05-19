@@ -4,7 +4,7 @@ import EndSection from '../end_section/EndSection';
 import Introduction from '../introduction/Introduction';
 import Timeline from '../timeline/Timeline';
 import WeddingPictures from '../wedding_pictures/WeddingPictures';
-import Place from '../place/Place';
+import Place from '../place_detail/Place';
 import './MainPage.css';
 
 export default function MainPage() {

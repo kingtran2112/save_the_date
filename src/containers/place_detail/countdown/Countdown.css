@@ -1,0 +1,42 @@
+.countdown {
+  text-align: center;
+}
+
+.countdown__introduction {
+  font-size: 16px;
+  line-height: 26px;
+  color: #172B4D;
+}
+
+.countdown__timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.countdown__unit-value, .countdown__separate {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 139px;
+  line-height: 100px;
+  text-align: center;
+
+  color: #8A4C51
+}
+
+.countdown__separate {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.countdown__unit-name {
+  margin-top: 15px;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #6B778C;
+}
