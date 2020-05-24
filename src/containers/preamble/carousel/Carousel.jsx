@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ArrowUp from '../../../resources/icon/arrow_up.svg';
 import ArrowDown from '../../../resources/icon/arrow_down.svg';
 import CarouselPics from '../../../resources/picture/carousel';
+import { counterFormat } from '../../../services/utils';
 import './Carousel.css';
 
 function getExpectCarouselIndex(expectIndex, maxIndex) {
@@ -11,13 +12,6 @@ function getExpectCarouselIndex(expectIndex, maxIndex) {
     return maxIndex - 1;
   }
   return expectIndex;
-}
-
-function counterFormat(number) {
-  if (number < 10) {
-    return ` 0${number} `;
-  }
-  return number;
 }
 
 // TODO: Divide this into smaller component
