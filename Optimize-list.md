@@ -1,3 +1,4 @@
+* Introduction is not really center
 * Support reponsive
 * Do refactor for carousel component
 * Convert img to .webp

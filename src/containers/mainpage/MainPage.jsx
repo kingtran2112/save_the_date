@@ -19,7 +19,6 @@ export default function MainPage() {
       <WeddingPictures />
       <EndSection />
       <Place />
-      <EndSection />
     </div>
   );
 }

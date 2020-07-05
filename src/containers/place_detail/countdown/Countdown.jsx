@@ -8,6 +8,7 @@ function timeDistance(tartgetDate) {
   // Divide distance to miliseconds in one day
   const dateDistance = counterFormat(Math.floor(distance / (24 * 60 * 60 * 1000)));
   // Get the remainder hour not enough for 1 day and divide to miliseconds in one hour
+  // eslint-disable-next-line max-len
   const hourDistance = counterFormat(Math.floor((distance % (1000 * 60 * 60 * 24)) / (60 * 60 * 1000)));
   const minuteDistance = counterFormat(Math.floor((distance % (1000 * 60 * 60)) / (60 * 1000)));
   const secondDistance = counterFormat(Math.floor((distance % (1000 * 60)) / 1000));
