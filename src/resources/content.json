@@ -1,0 +1,58 @@
+{
+  "preamble": {
+    "introduce": "I have finally deecided to make it official with my sweetheart today.",
+    "conclusion": "Happy and engageed!",
+    "joinUs": "Join us"
+  },
+  "introduction": {
+    "title": "Chúng mình là ai?",
+    "groom": {
+      "title": "Chú rể",
+      "name": "Trần Đăng King",
+      "description": "Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum"
+    },
+    "bride": {
+      "title": "Cô dâu",
+      "name": "Đoàn Diệu Linh",
+      "desciption": "Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum"
+    }
+  },
+  "timeLine": {
+    "title": "Chúng mình đã gặp nhau như thế nào",
+    "mileStones": [
+      {
+        "title": "Cuộc gặp gỡ đầu tiên",
+        "date": "2013-2-14",
+        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+      },
+      {
+        "title": "Cuộc mốc thứ hai",
+        "date": "2013-10-29",
+        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+      },
+      {
+        "title": "Cuộc mốc thứ ba",
+        "date": "2018-2-14",
+        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+      },
+      {
+        "title": "Và bây giờ, chúng mình đã về chung một nhà",
+        "date": "2020-10-3",
+        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+      }
+    ]
+  },
+  "weddingPicture": {
+    "title": "Ảnh cưới của chúng mình"
+  },
+  "placeDetail": {
+    "title": "Tiệc đám cưới",
+    "mapDirection": "Tìm đường đi",
+    "weddingTime": "2020-10-03T04:00:00.000Z",
+    "date": "Thứ 4, ngày 10 tháng 10, 2020",
+    "time": "Diễn ra vào lúc 18:00",
+    "place": "Vinpearl Luxury Đà Nẵng",
+    "address": "143 Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng",
+    "link": "https://goo.gl/maps/3AhQ3pDxArVGB9xD7"
+  }
+}

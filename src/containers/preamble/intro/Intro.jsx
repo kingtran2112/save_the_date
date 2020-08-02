@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../../resources/icon/icon_logo.png';
 import ArrowRight from '../../../resources/icon/arrow_right.svg';
+import content from '../../../resources/content.json';
 import './Intro.css';
 
 export default function Intro() {
@@ -11,15 +12,14 @@ export default function Intro() {
       </a>
       <div className="intro__introduce">
         <span>
-          I have finally deecided to make it official
-          with my sweetheart today.
+          {content.preamble.introduce}
         </span>
         <span className="intro__conclusion">
-          Happy and engageed!
+          {content.preamble.conclusion}
         </span>
       </div>
       <a className="intro__join-us" href="#join-us">
-        <span>Join us</span>
+        <span>{content.preamble.joinUs}</span>
         <img className="intro__join-us-arrow" src={ArrowRight} alt="Go to invitation" />
       </a>
     </div>

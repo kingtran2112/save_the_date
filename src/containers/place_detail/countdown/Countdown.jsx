@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { counterFormat } from '../../../services/utils';
 import './Countdown.css';
 
@@ -20,13 +21,13 @@ function timeDistance(tartgetDate) {
   };
 }
 
-export default function Countdown() {
-  const weddingDate = new Date(2020, 9, 3, 9, 0, 0);
-  const [countdownTime, setCountdownTime] = useState(timeDistance(weddingDate));
+export default function Countdown(props) {
+  const { date } = props;
+  const [countdownTime, setCountdownTime] = useState(timeDistance(date));
 
   useEffect(() => {
     const countdownInterval = setInterval(() => {
-      setCountdownTime(timeDistance(weddingDate));
+      setCountdownTime(timeDistance(date));
     }, 1000);
 
     return () => clearInterval(countdownInterval);
@@ -78,3 +79,7 @@ export default function Countdown() {
     </div>
   );
 }
+
+Countdown.propTypes = {
+  date: PropTypes.instanceOf(Date),
+};

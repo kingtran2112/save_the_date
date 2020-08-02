@@ -4,27 +4,28 @@ import GroomPicture from '../../resources/picture/introduction/groom.png';
 import BridePicture from '../../resources/picture/introduction/bride.png';
 import GroomSignature from '../../resources/picture/introduction/groom_signature.svg';
 import BrideSignature from '../../resources/picture/introduction/bride_signature.svg';
+import content from '../../resources/content.json';
 import './Introduction.css';
 
 export default function Introduction() {
   return (
     <div className="introduction">
       <div className="title introduction--title">
-        Chúng mình là ai?
+        {content.introduction.title}
       </div>
       <div className="introduction--detail">
         <SelfDescription
           picture={GroomPicture}
-          title="Chú rể"
-          name="Trần Đăng King"
-          description="Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum"
+          title={content.introduction.groom.title}
+          name={content.introduction.groom.name}
+          description={content.introduction.groom.description}
           signature={GroomSignature}
         />
         <SelfDescription
           picture={BridePicture}
-          title="Cô dâu"
-          name="Đoàn Diệu Linh"
-          description="Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum"
+          title={content.introduction.bride.title}
+          name={content.introduction.bride.name}
+          description={content.introduction.bride.desciption}
           signature={BrideSignature}
         />
       </div>

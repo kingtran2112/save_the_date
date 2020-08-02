@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactPhotoCollage } from 'react-photo-collage';
 import PicturePhotos from '../../resources/picture/wedding_pictures';
+import content from '../../resources/content.json';
 
 export default function WeddingPictures() {
   const photoSrc = PicturePhotos.map((photo) => {
@@ -10,7 +11,7 @@ export default function WeddingPictures() {
   return (
     <div className="wedding-pictures">
       <div className="title wedding-pictures--title">
-        Ảnh cưới của chúng mình
+        {content.weddingPicture.title}
       </div>
       <div className="wedding-pictures--collage">
         <ReactPhotoCollage
