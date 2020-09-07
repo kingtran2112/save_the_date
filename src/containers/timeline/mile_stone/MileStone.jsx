@@ -16,8 +16,7 @@ export default function MileStone(props) {
       </div>
       <div className="mile-stone--detail">
         <div className="mile-stone--date">
-          {/* TODO: Change format of date */}
-          {date.toLocaleDateString()}
+          {date}
         </div>
         <div className="mile-stone--title">
           {title}
@@ -32,7 +31,7 @@ export default function MileStone(props) {
 
 MileStone.propTypes = {
   type: PropTypes.string,
-  date: PropTypes.instanceOf(Date),
+  date: PropTypes.string,
   title: PropTypes.string,
   content: PropTypes.string,
 };

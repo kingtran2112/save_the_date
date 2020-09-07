@@ -11,7 +11,7 @@ export default function Timeline() {
         <MileStone
           key={mileStone.title}
           type="end"
-          date={new Date(mileStone.date)}
+          date={mileStone.date}
           title={mileStone.title}
           content={mileStone.content}
         />
@@ -21,7 +21,7 @@ export default function Timeline() {
       <MileStone
         key={mileStone.title}
         type={index % 2 === 0 ? 'right' : 'left'}
-        date={new Date(mileStone.date)}
+        date={mileStone.date}
         title={mileStone.title}
         content={mileStone.content}
       />

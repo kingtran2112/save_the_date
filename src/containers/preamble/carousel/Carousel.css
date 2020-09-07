@@ -10,7 +10,9 @@
 }
 
 .carousel__indicator {
-  margin-top: 345px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
   flex-shrink: 0;
 }
 
