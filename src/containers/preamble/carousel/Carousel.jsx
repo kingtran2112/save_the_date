@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ArrowUp from '../../../resources/icon/arrow_up.svg';
 import ArrowDown from '../../../resources/icon/arrow_down.svg';
-import CarouselPics from '../../../resources/picture/carousel';
+import content from '../../../resources/content.json';
 import { counterFormat } from '../../../services/utils';
 import './Carousel.css';
 
@@ -16,10 +16,11 @@ function getExpectCarouselIndex(expectIndex, maxIndex) {
 
 // TODO: Divide this into smaller component
 export default function Carousel() {
+  const { carouselPics } = content.preamble;
   const [currentIndex, setCurrentIndex] = useState(0);
-  const indicators = CarouselPics.map(
+  const indicators = carouselPics.map(
     (info, index) => {
-      const id = CarouselPics.length - 1 - index;
+      const id = carouselPics.length - 1 - index;
       const boldClass = currentIndex === id ? 'carousel__indicator-element--active' : '';
       return <li className={`carousel__indicator-element ${boldClass}`} key={info} />;
     },
@@ -33,7 +34,7 @@ export default function Carousel() {
           </span>
           <span className="carousel__counter-total">
             /
-            {counterFormat(CarouselPics.length)}
+            {counterFormat(carouselPics.length)}
           </span>
         </div>
         <ul className="carousel__indicator-list">
@@ -43,7 +44,7 @@ export default function Carousel() {
           <button
             className="carousel__arrow carousel__arrow--up"
             onClick={
-              () => setCurrentIndex(getExpectCarouselIndex(currentIndex + 1, CarouselPics.length))
+              () => setCurrentIndex(getExpectCarouselIndex(currentIndex + 1, carouselPics.length))
             }
             type="button"
           >
@@ -52,7 +53,7 @@ export default function Carousel() {
           <button
             className="carousel__arrow carousel__arrow--down"
             onClick={
-              () => setCurrentIndex(getExpectCarouselIndex(currentIndex - 1, CarouselPics.length))
+              () => setCurrentIndex(getExpectCarouselIndex(currentIndex - 1, carouselPics.length))
             }
             type="button"
           >
@@ -61,7 +62,7 @@ export default function Carousel() {
         </div>
       </div>
       <div>
-        <img className="carousel__image" src={CarouselPics[currentIndex]} alt="Test" />
+        <img className="carousel__image" src={carouselPics[currentIndex]} alt="Test" />
       </div>
     </div>
   );

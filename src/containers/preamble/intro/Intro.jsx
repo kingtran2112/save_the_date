@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../../resources/icon/icon_logo.png';
 import ArrowRight from '../../../resources/icon/arrow_right.svg';
 import content from '../../../resources/content.json';
 import './Intro.css';
@@ -8,7 +7,7 @@ export default function Intro() {
   return (
     <div className="intro">
       <a href="/">
-        <img src={Logo} alt="Go to Home" />
+        <img src={content.logoUrl} alt="Go to Home" />
       </a>
       <div className="intro__introduce">
         <span>

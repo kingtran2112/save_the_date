@@ -1,20 +1,36 @@
 {
+  "logoUrl": "https://res.cloudinary.com/kingtran/image/upload/v1599525823/save-the-date/logo/icon_logo_lmgnr4.png",
+  "pattern": {
+    "left": "https://res.cloudinary.com/kingtran/image/upload/v1599525568/save-the-date/pattern/pattern-left_xovi7p.svg",
+    "right": "https://res.cloudinary.com/kingtran/image/upload/v1599525570/save-the-date/pattern/pattern-right_p2rxcq.svg",
+    "endSection": "https://res.cloudinary.com/kingtran/image/upload/v1599525035/save-the-date/end-section/end_section_ocso8j.svg"
+  },
   "preamble": {
     "introduce": "I have finally deecided to make it official with my sweetheart today.",
     "conclusion": "Happy and engageed!",
-    "joinUs": "Join us"
+    "joinUs": "Join us",
+    "carouselPics": [
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978453/save-the-date/carousel/carousel_1_r80jvi.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978454/save-the-date/carousel/carousel_2_gocadq.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978454/save-the-date/carousel/carousel_3_rdphev.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978454/save-the-date/carousel/carousel_4_k3ikjf.jpg"
+    ]
   },
   "introduction": {
     "title": "Chúng mình là ai?",
     "groom": {
+      "image": "https://res.cloudinary.com/kingtran/image/upload/v1596978560/save-the-date/introduction/groom_h9vye1.png",
       "title": "Chú rể",
       "name": "Trần Đăng King",
-      "description": "Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum"
+      "description": "Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum",
+      "signature": "https://res.cloudinary.com/kingtran/image/upload/v1599524698/save-the-date/introduction/groom_signature_miukuo.svg"
     },
     "bride": {
+      "image": "https://res.cloudinary.com/kingtran/image/upload/v1596978560/save-the-date/introduction/bride_o24xvn.png",
       "title": "Cô dâu",
       "name": "Đoàn Diệu Linh",
-      "desciption": "Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum"
+      "desciption": "Consequat non laborum sunt pariatur. Amet esse sunt eiusmod duis ut eu mollit ut aliquip et consectetur cillum",
+      "signature": "https://res.cloudinary.com/kingtran/image/upload/v1599524659/save-the-date/introduction/bride_signature_ibs3y6.svg"
     }
   },
   "timeLine": {
@@ -22,28 +38,37 @@
     "mileStones": [
       {
         "title": "Cuộc gặp gỡ đầu tiên",
-        "date": "2013-2-14",
-        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+        "date": "Mùa thu, 2010",
+        "content": "Vậy là thấm thoắt đã tròn 10 năm tụi mình quen biết nhau. Mùa thu năm ấy, mình và anh bạn thân chẳng ấn tượng gì với nhau, cũng đã trở thành bạn học những năm cấp III"
       },
       {
-        "title": "Cuộc mốc thứ hai",
-        "date": "2013-10-29",
-        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+        "title": "Mở lòng",
+        "date": "Mùa xuân, 2013",
+        "content": "Đúng vào dịp trường mình tổ chức hội trại, anh bạn thân vì một ly nước chanh tiêu đã xiêu lòng và bày tỏ nhưng vẫn không có gì thay đổi, chỉ là tụi mình bắt đầu thân hơn, đi chơi nhiều hơn và cùng nhau ôn thi vào Đại học"
       },
       {
-        "title": "Cuộc mốc thứ ba",
-        "date": "2018-2-14",
-        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+        "title": "Bước vào mối quan hệ",
+        "date": "12.1.2015",
+        "content": "Mãi đến tận 2 năm sau, tụi mình mới chính thức ở bên nhau nhưng chỉ vỏn vẹn 2 tháng sau thì chia tay, dù vậy, cả hai đều rất trân trọng thứ tình bạn này nên vân quyết định là bạn bè như chưa có gì xảy ra. Và rồi cứ thế tụi mình lại đến với nhau lúc nào không hay"
       },
       {
-        "title": "Và bây giờ, chúng mình đã về chung một nhà",
-        "date": "2020-10-3",
-        "content": "Incididunt fugiat est laborum common ea proident consectetur"
+        "title": "Về chung nhà",
+        "date": "3.10.2020",
+        "content": "Trải qua bao hỉ nộ ái ố, vui có, khóc có, hạnh phúc có, cãi vã có, bao lần nói lời chia tay thì cuối cùng tụi mình cũng đã thành công gìn giữ và bồi dưỡng mảnh tình này để giờ đây có thể hái quả ngọt. Mình không mong mãi mãi, chỉ mong mỗi ngày mỗi ngày tụi mình đều có thể vui vẻ tận hưởng khoảng thời gian bên nhau. Happy beginning"
       }
     ]
   },
   "weddingPicture": {
-    "title": "Ảnh cưới của chúng mình"
+    "title": "Ảnh cưới của chúng mình",
+    "images": [
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978626/save-the-date/wedding-picture/picture6_onwews.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978623/save-the-date/wedding-picture/picture3_xddvgs.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978623/save-the-date/wedding-picture/picture5_semwja.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978621/save-the-date/wedding-picture/picture7_yw3ogi.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978620/save-the-date/wedding-picture/picture4_ctjn1e.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978622/save-the-date/wedding-picture/picture1_fhbmlc.jpg",
+      "https://res.cloudinary.com/kingtran/image/upload/v1596978620/save-the-date/wedding-picture/picture2_amnivj.jpg"
+    ]
   },
   "placeDetail": {
     "title": "Tiệc đám cưới",
@@ -52,7 +77,11 @@
     "date": "Thứ 4, ngày 10 tháng 10, 2020",
     "time": "Diễn ra vào lúc 18:00",
     "place": "Vinpearl Luxury Đà Nẵng",
+    "directionImage": "https://res.cloudinary.com/kingtran/image/upload/v1599525341/save-the-date/wedding-place/map_picture_uwwmvs.svg",
     "address": "143 Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng",
     "link": "https://goo.gl/maps/3AhQ3pDxArVGB9xD7"
+  },
+  "endPage": {
+    "image": "https://res.cloudinary.com/kingtran/image/upload/v1599524386/save-the-date/end/end_page_vuvinb.png"
   }
 }

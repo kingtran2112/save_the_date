@@ -1,17 +1,17 @@
 import React from 'react';
 import DateIcon from '../../resources/icon/map_date_icon.svg';
 import PlaceIcon from '../../resources/icon/map_place_icon.svg';
-import MapPicture from '../../resources/picture/map_picture.svg';
 import Countdown from './countdown/Countdown';
 import content from '../../resources/content.json';
 import './Place.css';
 
 export default function Place() {
+  const { placeDetail } = content;
   return (
     <div className="place">
-      <img className="place--map__google-map" src={MapPicture} alt="map" />
+      <img className="place--map__google-map" src={placeDetail.directionImage} alt="map" />
       <div className="title place--title">
-        {content.placeDetail.title}
+        {placeDetail.title}
       </div>
       <div className="place--map">
         <div className="place--map__information">
@@ -19,10 +19,10 @@ export default function Place() {
             <img src={DateIcon} alt="Wedding date" />
             <div className="place--map__date">
               <div className="place--map__date-detail wedding__info--title">
-                {content.placeDetail.date}
+                {placeDetail.date}
               </div>
               <div className="place--map__date-time wedding__info--content">
-                {content.placeDetail.time}
+                {placeDetail.time}
               </div>
             </div>
           </div>
@@ -30,19 +30,19 @@ export default function Place() {
             <img src={PlaceIcon} alt="Wedding place" />
             <div className="place--map__place-address">
               <div className="place--map__place wedding__info--title">
-                {content.placeDetail.place}
+                {placeDetail.place}
               </div>
               <div className="place--map__place-detail wedding__info--content">
-                {content.placeDetail.address}
+                {placeDetail.address}
               </div>
             </div>
           </div>
-          <a className="place--map__direction" href={content.placeDetail.link} target="_blank" rel="noopener noreferrer">
-            {content.placeDetail.mapDirection}
+          <a className="place--map__direction" href={placeDetail.link} target="_blank" rel="noopener noreferrer">
+            {placeDetail.mapDirection}
           </a>
         </div>
       </div>
-      <Countdown date={new Date(content.placeDetail.weddingTime)} />
+      <Countdown date={new Date(placeDetail.weddingTime)} />
     </div>
   );
 }

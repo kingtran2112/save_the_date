@@ -1,11 +1,12 @@
 import React from 'react';
-import EndSectionImg from '../../resources/picture/end_section/end_section.svg';
+import content from '../../resources/content.json';
 import './EndSection.css';
 
 export default function EndSection() {
+  const endSectionImg = content.pattern.endSection;
   return (
     <div className="end-section">
-      <img src={EndSectionImg} alt="End section" />
+      <img src={endSectionImg} alt="End section" />
     </div>
   );
 }

@@ -1,8 +1,8 @@
+* undefined is showed in PhotoCollage
 * Introduction is not really center
 * Support reponsive
 * Do refactor for carousel component
 * Convert img to .webp
-* Using cloudinary for img to make it faster when render img
 * Add lazy loading to Carousel
 * Support multi language
 * "react-photo-collage": "^1.0.7",
