@@ -8,7 +8,9 @@ export default function SelfDescription(props) {
   } = props;
   return (
     <div className="self-description">
-      <img className="self-description--picture" src={picture} alt="Self" />
+      <div className="self-description--picture_cover">
+        <img className="self-description--picture" src={picture} alt="Self" />
+      </div>
       <div className="self-description--title">
         {title}
       </div>
@@ -18,7 +20,9 @@ export default function SelfDescription(props) {
       <div className="self-description--description">
         {description}
       </div>
-      <img className="self-description--signature" src={signature} alt="Signature" />
+      <div className="self-description--signature_cover">
+        <img className="self-description--signature" src={signature} alt="Signature" />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .intro {
   width: 50%;
+  flex-grow: 1;
 }
 
 .intro__introduce {

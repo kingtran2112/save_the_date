@@ -9,7 +9,9 @@ export default function Place() {
   const { placeDetail } = content;
   return (
     <div className="place">
-      <img className="place--map__google-map" src={placeDetail.directionImage} alt="map" />
+      <div className="place--map__google-map__cover">
+        <img className="place--map__google-map" src={placeDetail.directionImage} alt="map" />
+      </div>
       <div className="title place--title">
         {placeDetail.title}
       </div>

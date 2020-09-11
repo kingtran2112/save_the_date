@@ -1,5 +1,4 @@
 .place .place--map {
-  height: 620px;
   width: 100%;
 }
 .place--marker__logo {
@@ -30,11 +29,16 @@
   margin-bottom: 36px;
 }
 
-.place--map__google-map {
+.place--map__google-map__cover {
   z-index: -1;
   position: absolute;
   margin-left: 16.67%;
   margin-top: 20px;
+}
+
+.place--map__google-map {
+  width: 100%;
+  height: auto;
 }
 
 .place--map__direction {

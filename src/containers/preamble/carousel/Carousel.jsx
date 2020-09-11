@@ -61,8 +61,8 @@ export default function Carousel() {
           </button>
         </div>
       </div>
-      <div>
-        <img className="carousel__image" src={carouselPics[currentIndex]} alt="Test" />
+      <div className="carousel__image-cover">
+        <img className="carousel__image" src={carouselPics[currentIndex]} alt="slide show" />
       </div>
     </div>
   );

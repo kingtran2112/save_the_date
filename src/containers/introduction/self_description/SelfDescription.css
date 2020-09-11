@@ -1,7 +1,6 @@
 .self-description {
-  margin-left: 10%;
-  margin-right: 10%;
   width: 30%;
+  text-align: center;
 }
 
 .self-description--title {
@@ -33,4 +32,24 @@
   line-height: 26px;
 
   color: #6B778C;
+}
+
+.self-description--picture {
+  width: 100%;
+  height: auto;
+}
+
+.self-description--picture_cover {
+  width: 83.33%;
+  margin: auto
+}
+
+@media only screen and (min-width : 768px) {
+  .self-description--picture_cover {
+    margin: unset;
+  }
+
+  .self-description {
+    text-align: left;
+  }
 }

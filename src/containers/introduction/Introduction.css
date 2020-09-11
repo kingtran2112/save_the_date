@@ -1,5 +1,9 @@
 .introduction--detail {
   display: flex;
-  margin-left: 8.34%;
-  margin-right: 8.34%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.introduction--detail > div {
+  min-width: 400px;
 }

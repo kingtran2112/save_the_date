@@ -1,5 +1,6 @@
 .carousel {
   width: 50%;
+  flex-grow: 1;
   display: flex;
 }
 
@@ -61,8 +62,12 @@
 .carousel__arrow--down {
   margin-top: 40.5px;
 }
+.carousel__image-cover{
+  margin-top: 25px;
+  align-self: flex-end;
+}
 
 .carousel__image {
-  height: 609px;
-  margin-top: 25px;
+  width: 100%;
+  height: auto;
 }

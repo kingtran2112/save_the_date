@@ -1,3 +1,8 @@
 .preamble {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.preamble > div {
+  min-width: 400px;
 }

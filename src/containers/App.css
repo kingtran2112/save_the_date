@@ -10,12 +10,14 @@
     position: absolute;
     left: 0px;
     margin-top: 628px;
+    z-index: -1;
 }
 
 .pattern-right {
     position: absolute;
     right: 0px;
     margin-top: 2547px;
+    z-index: -1;
 }
 
 .end-page {
