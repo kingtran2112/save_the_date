@@ -6,7 +6,7 @@
 .self-description--title {
   margin-top: 32px;
 
-  font-weight: bold;
+  font-family: 'SVN-Gilroy-Bold';
   font-size: 12px;
   line-height: 140%;
   letter-spacing: 0.1em;
@@ -18,7 +18,7 @@
 .self-description--name {
   margin-top: 8px;
 
-  font-weight: bold;
+  font-family: 'SVN-Gilroy-Bold';
   font-size: 28px;
   line-height: 140%;
 

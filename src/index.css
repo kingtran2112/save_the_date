@@ -1,11 +1,19 @@
 body {
     margin: 0px;
-    font-family: 'PoppinsVN';
+    font-family: 'SVN-Gilroy';
 }
 
 @font-face {
-    font-family: 'PoppinsVN';
-    src: url('resources/font/PoppinsVN-400.ttf') format('truetype'), 
-            url('resources/font/PoppinsVN-700.ttf') format('truetype'),
-            url('resources/font/PoppinsVN-800.ttf') format('truetype');
+    font-family: 'SVN-Gilroy';
+    src: url('resources/font/SVN-Gilroy-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy-Bold';
+    src: url('resources/font/SVN-Gilroy-SemiBold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FS-AmeliaScript';
+    src: url('resources/font/FS-AmeliaScript-FineVersion.otf') format('truetype');
 }

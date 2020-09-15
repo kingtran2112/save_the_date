@@ -16,6 +16,7 @@
 }
 
 .countdown__unit-value, .countdown__separate {
+  font-family: 'FS Amelia Script';
   font-style: italic;
   font-weight: normal;
   font-size: 139px;
@@ -33,7 +34,7 @@
 .countdown__unit-name {
   margin-top: 15px;
 
-  font-weight: bold;
+  font-family: 'SVN-Gilroy-Bold';
   font-size: 12px;
   line-height: 17px;
   letter-spacing: 0.1em;
