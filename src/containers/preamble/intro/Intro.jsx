@@ -7,7 +7,9 @@ export default function Intro() {
   return (
     <div className="intro">
       <a href="/">
-        <img src={content.logoUrl} alt="Go to Home" />
+        <div className="intro__logo-cover">
+          <img className="intro__logo" src={content.logoUrl} alt="Go to Home" />
+        </div>
       </a>
       <div className="intro__introduce">
         <span>

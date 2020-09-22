@@ -3,6 +3,16 @@
   flex-grow: 1;
 }
 
+.intro__logo {
+  width: 100%;
+  height: 100%;
+}
+
+.intro__logo-cover {
+  width: 190px;
+  height: 170px;
+}
+
 .intro__introduce {
   width: 83.33%;
 
