@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ArrowUp from '../../../resources/icon/arrow_up.svg';
 import ArrowDown from '../../../resources/icon/arrow_down.svg';
 import content from '../../../resources/content.json';
 import { counterFormat } from '../../../services/utils';
 import './Carousel.css';
 
-function getExpectCarouselIndex(expectIndex, maxIndex) {
+function getCarouselIndex(expectIndex, maxIndex) {
   if (expectIndex > maxIndex - 1) {
     return 0;
   } if (expectIndex < 0) {
@@ -25,6 +25,14 @@ export default function Carousel() {
       return <li className={`carousel__indicator-element ${boldClass}`} key={info} />;
     },
   );
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex(getCarouselIndex(currentIndex + 1, carouselPics.length));
+    }, 2000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentIndex]);
   return (
     <div className="carousel">
       <div className="carousel__indicator">
@@ -44,7 +52,7 @@ export default function Carousel() {
           <button
             className="carousel__arrow carousel__arrow--up"
             onClick={
-              () => setCurrentIndex(getExpectCarouselIndex(currentIndex + 1, carouselPics.length))
+              () => setCurrentIndex(getCarouselIndex(currentIndex + 1, carouselPics.length))
             }
             type="button"
           >
@@ -53,7 +61,7 @@ export default function Carousel() {
           <button
             className="carousel__arrow carousel__arrow--down"
             onClick={
-              () => setCurrentIndex(getExpectCarouselIndex(currentIndex - 1, carouselPics.length))
+              () => setCurrentIndex(getCarouselIndex(currentIndex - 1, carouselPics.length))
             }
             type="button"
           >

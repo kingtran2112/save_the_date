@@ -1,5 +1,4 @@
 import React from 'react';
-import SideBar from './sidebar/SideBar';
 import MainPage from './mainpage/MainPage';
 import content from '../resources/content.json';
 
@@ -8,7 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="app-container">
-      <SideBar />
+      {/* Disable for the moment */}
+      {/* <SideBar /> */}
       <img className="pattern-left" src={content.pattern.left} alt="pattern_left" />
       <img className="pattern-right" src={content.pattern.right} alt="pattern_right" />
       <MainPage />

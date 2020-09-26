@@ -64,6 +64,7 @@
 }
 .carousel__image-cover{
   margin-top: 25px;
+  max-width: 750px;
   align-self: flex-end;
 }
 

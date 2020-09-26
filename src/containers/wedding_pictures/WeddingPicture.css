@@ -1,0 +1,4 @@
+/* Workaround for undefined word in the Collage */
+.react-images__footer__caption {
+  visibility: hidden;
+}

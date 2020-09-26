@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactPhotoCollage } from 'react-photo-collage';
 import content from '../../resources/content.json';
+import './WeddingPicture.css';
 
 export default function WeddingPictures() {
   const picturePhotos = content.weddingPicture.images;
