@@ -6,6 +6,14 @@ export default function SelfDescription(props) {
   const {
     picture, title, name, description, signature,
   } = props;
+  let signatureComponent;
+  if (signature) {
+    signatureComponent = (
+      <div className="self-description--signature_cover">
+        <img className="self-description--signature" src={signature} alt="Signature" />
+      </div>
+    );
+  }
   return (
     <div className="self-description">
       <div className="self-description--picture_cover">
@@ -20,9 +28,7 @@ export default function SelfDescription(props) {
       <div className="self-description--description">
         {description}
       </div>
-      <div className="self-description--signature_cover">
-        <img className="self-description--signature" src={signature} alt="Signature" />
-      </div>
+      {signatureComponent}
     </div>
   );
 }

@@ -52,6 +52,10 @@
 }
 
 @media only screen and (min-width : 1025px) {
+  .intro {
+    width: 50%;
+  }
+  
   .intro__introduce {
     width: 83.33%;
   }

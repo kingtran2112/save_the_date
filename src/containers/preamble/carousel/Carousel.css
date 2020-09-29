@@ -81,6 +81,7 @@
 
 @media only screen and (min-width : 1025px) {
   .carousel {
+    width: 50%;
     flex-direction: row;
   }
 
@@ -125,5 +126,6 @@
 
   .carousel__image-cover{
     max-width: 750px;
+    min-width: 450px;
   }
 } 
