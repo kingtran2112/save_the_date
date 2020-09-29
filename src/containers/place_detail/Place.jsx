@@ -8,7 +8,7 @@ import './Place.css';
 export default function Place() {
   const { placeDetail } = content;
   return (
-    <div className="place">
+    <div className="place" id="wedding-place">
       <div className="place--map__google-map__cover">
         <img className="place--map__google-map" src={placeDetail.directionImage} alt="map" />
       </div>

@@ -1,5 +1,4 @@
 .intro {
-  width: 50%;
   flex-grow: 1;
 }
 
@@ -11,10 +10,11 @@
 .intro__logo-cover {
   width: 190px;
   height: 170px;
+  margin: auto;
 }
 
 .intro__introduce {
-  width: 83.33%;
+  width: 100%;
 
   font-family: 'SVN-Gilroy-Bold';
   font-size: 36px;
@@ -29,14 +29,12 @@
 }
 
 .intro__join-us {
-  display: flex;
+  width: 100%;
+  display: inline-flex;
   box-sizing: border-box;
   background: #8A4C51;
-  width: 188px;
   height: 52px;
   margin-top: 72px;
-  padding: 16px 0px 14px 40px;
-
   font-family: 'SVN-Gilroy-Bold';
   font-size: 15px;
   line-height: 22px;
@@ -44,8 +42,25 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
+  
+  align-items: center;
+  justify-content: center;
 }
 
 .intro__join-us-arrow {
   margin-left: 20px;
+}
+
+@media only screen and (min-width : 1025px) {
+  .intro__introduce {
+    width: 83.33%;
+  }
+
+  .intro__logo-cover {
+    margin: 0px;
+  }
+
+  .intro__join-us {
+    width: 33.33%;
+  }
 }

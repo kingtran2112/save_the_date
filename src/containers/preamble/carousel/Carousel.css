@@ -1,25 +1,29 @@
 .carousel {
-  width: 50%;
   flex-grow: 1;
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .carousel__indicator-list {
   list-style-type: none;
-  padding: 0px;
-  margin: 0px 0px 0px 7px;
+  padding: 9px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .carousel__indicator {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 25px;
+  flex-direction: row-reverse;
   align-self: flex-end;
   flex-shrink: 0;
 }
 
 .carousel__counter {
   display: inline-block;
-  transform: rotate(-90deg);
   transform-origin: top left;
 
   font-family: 'SVN-Gilroy-Bold';
@@ -35,8 +39,8 @@
 
 .carousel__indicator-element {
   cursor: pointer;
-  width: 2px;
-  height: 35px;
+  width: 62px;
+  height: 2px;
   background: #344563;
   opacity: 0.1;
   border-radius: 4px;
@@ -47,7 +51,8 @@
 }
 
 .carousel__arrows {
-  margin-top: 52px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .carousel__arrow {
@@ -57,14 +62,15 @@
   cursor: pointer;
   outline: none;
   background: unset;
+  transform: rotate(90deg);
 }
 
-.carousel__arrow--down {
-  margin-top: 40.5px;
+.carousel__arrow--up {
+  margin-left: 35px;
 }
+
 .carousel__image-cover{
   margin-top: 25px;
-  max-width: 750px;
   align-self: flex-end;
 }
 
@@ -72,3 +78,52 @@
   width: 100%;
   height: auto;
 }
+
+@media only screen and (min-width : 1025px) {
+  .carousel {
+    flex-direction: row;
+  }
+
+  .carousel__arrow--down {
+    margin-top: 40.5px;
+  }
+
+  .carousel__arrow--up {
+    margin-left: 0px;
+  }
+
+  .carousel__arrow {
+    transform: unset;
+    text-align: start;
+  }
+
+  .carousel__arrows {
+    margin-top: 52px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .carousel__indicator-element {
+    width: 2px;
+    height: 35px;
+  }
+
+  .carousel__counter {
+    transform: rotate(-90deg);
+  }
+
+  .carousel__indicator {
+    flex-direction: column;
+    width: unset;
+  }
+
+  .carousel__indicator-list {
+    margin: 0px 0px 0px 7px;
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .carousel__image-cover{
+    max-width: 750px;
+  }
+} 

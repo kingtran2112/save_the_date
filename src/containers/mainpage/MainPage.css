@@ -1,6 +1,6 @@
 .main-page {
-  margin-left: 11%;
-  margin-right: 11%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .title {
@@ -14,4 +14,11 @@
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #172B4D;
+}
+
+@media only screen and (min-width : 1025px) {
+  .main-page {
+    margin-left: 11%;
+    margin-right: 11%;
+  }
 }

@@ -1,9 +1,15 @@
 .introduction--detail {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .introduction--detail > div {
   min-width: 400px;
+}
+
+@media only screen and (min-width : 1025px) {
+  .introduction--detail {
+    flex-direction: row;
+  }
 }

@@ -1,8 +1,10 @@
 .preamble {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.preamble > div {
-  min-width: 400px;
+@media only screen and (min-width : 1025px) {
+  .preamble {
+    flex-direction: row;
+  }
 }

@@ -1,5 +1,4 @@
 .self-description {
-  width: 30%;
   text-align: center;
 }
 
@@ -44,12 +43,13 @@
   margin: auto
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 1025px) {
   .self-description--picture_cover {
-    margin: unset;
+    margin: 0px;
   }
 
   .self-description {
     text-align: left;
+    width: 30%;
   }
 }

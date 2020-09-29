@@ -19,7 +19,7 @@ export default function Intro() {
           {content.preamble.conclusion}
         </span>
       </div>
-      <a className="intro__join-us" href="#join-us">
+      <a className="intro__join-us" href="#wedding-place">
         <span>{content.preamble.joinUs}</span>
         <img className="intro__join-us-arrow" src={ArrowRight} alt="Go to invitation" />
       </a>
