@@ -11,6 +11,7 @@
   width: 190px;
   height: 170px;
   margin: auto;
+  display: inline-block;
 }
 
 .intro__introduce {
@@ -55,7 +56,7 @@
   .intro {
     width: 50%;
   }
-  
+
   .intro__introduce {
     width: 83.33%;
   }
