@@ -7,20 +7,32 @@
 }
 
 .pattern-left {
-    position: absolute;
-    left: 0px;
-    margin-top: 628px;
-    z-index: -1;
+    display: none;
 }
 
 .pattern-right {
-    position: absolute;
-    right: 0px;
-    margin-top: 2547px;
-    z-index: -1;
+    display: none;
 }
 
 .end-page {
     margin-top: 160px;
     width: 100%;
+}
+
+@media only screen and (min-width : 1025px) {
+    .pattern-left {
+        display: unset;
+        position: absolute;
+        left: 0px;
+        margin-top: 628px;
+        z-index: -1;
+    }
+    
+    .pattern-right {
+        display: unset;
+        position: absolute;
+        right: 0px;
+        margin-top: 2547px;
+        z-index: -1;
+    }
 }

@@ -3,7 +3,7 @@
 }
 
 .self-description--title {
-  margin-top: 32px;
+  margin-top: 24px;
 
   font-family: 'SVN-Gilroy-Bold';
   font-size: 12px;
@@ -25,8 +25,7 @@
 }
 
 .self-description--description {
-  margin-top: 12px;
-
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 26px;
 
@@ -51,5 +50,14 @@
   .self-description {
     text-align: left;
     width: 30%;
+  }
+
+  .self-description--description {
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+
+  .self-description--title {
+    margin-top: 32px;
   }
 }
