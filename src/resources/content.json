@@ -10,22 +10,22 @@
     "conclusion": " Happy wedding!",
     "joinUs": "Tham dự",
     "carouselPics": [
-      "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_3000,w_3000/v1601378932/save-the-date/carousel/TH3_4159_cpwigm.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_3000,w_3000/v1601378797/save-the-date/carousel/TH3_4338_zlmbyg.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/c_fill,g_auto,h_3000,w_3000/v1601378769/save-the-date/carousel/TH3_4546_b8hrwq.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_3000,w_3000/v1601379186/save-the-date/carousel/TH3_4761_aj4s8d.webp"
+      "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_1000,w_1000/v1601378932/save-the-date/carousel/TH3_4159_cpwigm.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_1000,w_1000/v1601378797/save-the-date/carousel/TH3_4338_zlmbyg.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_1000,w_1000/v1601378769/save-the-date/carousel/TH3_4546_b8hrwq.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_1000,w_1000/v1601379186/save-the-date/carousel/TH3_4761_aj4s8d.webp"
     ]
   },
   "introduction": {
     "title": "Chúng mình là ai?",
     "groom": {
-      "image": "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_3000,w_3000/v1601379450/save-the-date/introduction/TH3_4182_cxo0nh.webp",
+      "image": "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_600,w_600/v1601379450/save-the-date/introduction/TH3_4182_cxo0nh.webp",
       "title": "Chú rể",
       "name": "Trần Đăng King",
       "description": "Cung Nhân Mã, anh culi công nghệ thích chơi game, thích tự do và thích đi đây đó"
     },
     "bride": {
-      "image": "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_3000,w_3000/v1601379449/save-the-date/introduction/TH3_4068_i5kayg.webp",
+      "image": "https://res.cloudinary.com/kingtran/image/upload/c_fill,h_600,w_600/v1601379449/save-the-date/introduction/TH3_4068_i5kayg.webp",
       "title": "Cô dâu",
       "name": "Đoàn Diệu Linh",
       "desciption": "Cung Song Ngư, chị bé đam mê stationery thích xem phim và thích những điều giản đơn"
@@ -59,40 +59,40 @@
   "weddingPicture": {
     "title": "Ảnh cưới của chúng mình",
     "images": [
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446410/save-the-date/wedding-picture/1_zss6vz.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446410/save-the-date/wedding-picture/2_oyt4jx.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446410/save-the-date/wedding-picture/3_lvrnpw.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446410/save-the-date/wedding-picture/4_knpwnn.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446410/save-the-date/wedding-picture/5_cq0uy6.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446410/save-the-date/wedding-picture/6_xwd1qv.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446412/save-the-date/wedding-picture/7_poqhd2.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446412/save-the-date/wedding-picture/8_ir4d4t.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446412/save-the-date/wedding-picture/9_cpxudw.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446412/save-the-date/wedding-picture/10_dbqwwd.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446415/save-the-date/wedding-picture/11_bo1x0z.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446413/save-the-date/wedding-picture/12_usvfgm.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446415/save-the-date/wedding-picture/13_w9f8tc.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446415/save-the-date/wedding-picture/14_vni5cl.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446414/save-the-date/wedding-picture/15_wotxes.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446415/save-the-date/wedding-picture/16_mqsgcm.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446415/save-the-date/wedding-picture/17_uu5aey.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446416/save-the-date/wedding-picture/18_rdbgx6.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446420/save-the-date/wedding-picture/19_md4uv0.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446417/save-the-date/wedding-picture/20_ppi9pe.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446417/save-the-date/wedding-picture/21_nvezi7.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446418/save-the-date/wedding-picture/22_em4xf0.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446418/save-the-date/wedding-picture/23_z7jnct.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446418/save-the-date/wedding-picture/24_dc7zf0.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446419/save-the-date/wedding-picture/25_ed97vz.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446419/save-the-date/wedding-picture/26_vkssht.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446420/save-the-date/wedding-picture/27_mtuyhn.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446422/save-the-date/wedding-picture/28_qib9nl.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446422/save-the-date/wedding-picture/29_cwffcp.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446420/save-the-date/wedding-picture/30_rh3ra3.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446422/save-the-date/wedding-picture/31_tbhwxx.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446423/save-the-date/wedding-picture/32_sxzwyz.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446422/save-the-date/wedding-picture/33_yzpiw2.webp",
-      "https://res.cloudinary.com/kingtran/image/upload/v1601446426/save-the-date/wedding-picture/34_mvj1kl.webp"
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446410/save-the-date/wedding-picture/1_zss6vz.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446410/save-the-date/wedding-picture/2_oyt4jx.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446410/save-the-date/wedding-picture/3_lvrnpw.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446410/save-the-date/wedding-picture/4_knpwnn.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446410/save-the-date/wedding-picture/5_cq0uy6.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446410/save-the-date/wedding-picture/6_xwd1qv.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446412/save-the-date/wedding-picture/7_poqhd2.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446412/save-the-date/wedding-picture/8_ir4d4t.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446412/save-the-date/wedding-picture/9_cpxudw.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446412/save-the-date/wedding-picture/10_dbqwwd.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446415/save-the-date/wedding-picture/11_bo1x0z.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446413/save-the-date/wedding-picture/12_usvfgm.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446415/save-the-date/wedding-picture/13_w9f8tc.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446415/save-the-date/wedding-picture/14_vni5cl.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446414/save-the-date/wedding-picture/15_wotxes.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446415/save-the-date/wedding-picture/16_mqsgcm.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446415/save-the-date/wedding-picture/17_uu5aey.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446416/save-the-date/wedding-picture/18_rdbgx6.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446420/save-the-date/wedding-picture/19_md4uv0.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446417/save-the-date/wedding-picture/20_ppi9pe.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446417/save-the-date/wedding-picture/21_nvezi7.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446418/save-the-date/wedding-picture/22_em4xf0.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446418/save-the-date/wedding-picture/23_z7jnct.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446418/save-the-date/wedding-picture/24_dc7zf0.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446419/save-the-date/wedding-picture/25_ed97vz.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446419/save-the-date/wedding-picture/26_vkssht.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446420/save-the-date/wedding-picture/27_mtuyhn.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446422/save-the-date/wedding-picture/28_qib9nl.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446422/save-the-date/wedding-picture/29_cwffcp.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446420/save-the-date/wedding-picture/30_rh3ra3.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446422/save-the-date/wedding-picture/31_tbhwxx.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446423/save-the-date/wedding-picture/32_sxzwyz.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446422/save-the-date/wedding-picture/33_yzpiw2.webp",
+      "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446426/save-the-date/wedding-picture/34_mvj1kl.webp"
     ]
   },
   "placeDetail": {
@@ -107,6 +107,6 @@
     "link": "https://goo.gl/maps/3AhQ3pDxArVGB9xD7"
   },
   "endPage": {
-    "image": "https://res.cloudinary.com/kingtran/image/upload/v1601446420/save-the-date/wedding-picture/19_md4uv0.webp"
+    "image": "https://res.cloudinary.com/kingtran/image/upload/c_scale,h_2160/v1601446420/save-the-date/wedding-picture/19_md4uv0.webp"
   }
 }
