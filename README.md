@@ -17,7 +17,7 @@ The application currently have a task that support gh page. Take a look at task 
 `http://localhost:1234/`
 
 ## Demo
-https://kingtran2112.github.io/save_the_date`
+https://kingtran2112.github.io/save_the_date
 
 ## Custom the application
 The content of the application is in [Resource file](src/resources/content.json). For custom the preview content, take a look at [index.html](src/index.html) and change the value of meta tag at your wish
