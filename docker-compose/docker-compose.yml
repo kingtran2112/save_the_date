@@ -1,0 +1,32 @@
+version: "3.3"
+
+services:
+
+  traefik:
+    image: "traefik:v2.3"
+    container_name: "traefik"
+    command:
+      - "--api.insecure=${YOUR-VALUE}"
+      - "--providers.docker=${YOUR-VALUE}"
+      - "--providers.docker.exposedbydefault=${YOUR-VALUE}"
+      - "--entrypoints.websecure.address=${YOUR-VALUE}"
+      - "--entrypoints.web.address=${YOUR-VALUE}"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=tr${YOUR-VALUE}ue"
+      - "--entrypoints.web.http.redirections.entryPoint.to=${YOUR-VALUE}"
+      - "--certificatesresolvers.myresolver.acme.email=${YOUR-VALUE}"
+      - "--certificatesresolvers.myresolver.acme.storage=${YOUR-VALUE}"
+    ports:
+      - "${YOUR-VALUE}:${YOUR-VALUE}"
+      - "${YOUR-VALUE}:${YOUR-VALUE}"
+    volumes:
+      - "${YOUR-VALUE}:${YOUR-VALUE}"
+      - "${YOUR-VALUE}:/${YOUR-VALUE}"
+
+  save-the-date:
+    image: "${YOUR-IMAGE}"
+    container_name: "${YOUR-VALUE}"
+    labels:
+      - "traefik.enable=${YOUR-VALUE}"
+      - "traefik.http.routers.save-the-date.rule=${YOUR-VALUE}"
+      - "traefik.http.routers.save-the-date.entrypoints=${YOUR-VALUE}"
+      - "traefik.http.routers.save-the-date.tls.certresolver=${YOUR-VALUE}"
